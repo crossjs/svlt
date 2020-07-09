@@ -1,0 +1,11 @@
+{
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "plugins": ["prettier-plugin-svelte"]
+}

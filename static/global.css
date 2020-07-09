@@ -1,0 +1,69 @@
+:root {
+  --palette-common-white: #ffffff;
+  --palette-common-black: #000000;
+
+  --palette-default: rgba(0, 0, 0, 0.87);
+  --palette-default-light: rgba(0, 0, 0, 0.54);
+  --palette-default-dark: var(--palette-common-black);
+  --palette-default-contrastText: var(--palette-common-white);
+
+  --palette-primary: #3f51b5;
+  --palette-primary-light: #7986cb;
+  --palette-primary-dark: #303f9f;
+  --palette-primary-contrastText: var(--palette-common-white);
+
+  --palette-secondary: #f50057;
+  --palette-secondary-light: #ff4081;
+  --palette-secondary-dark: #c51162;
+  --palette-secondary-contrastText: var(--palette-common-white);
+
+  --palette-error: #f44336;
+  --palette-error-light: #e57373;
+  --palette-error-dark: #d32f2f;
+  --palette-error-contrastText: var(--palette-common-white);
+
+  --palette-warning: #ff9800;
+  --palette-warning-light: #ffb74d;
+  --palette-warning-dark: #f57c00;
+  --palette-warning-contrastText: rgba(0, 0, 0, 0.87);
+
+  --palette-info: #2196f3;
+  --palette-info-light: #64b5f6;
+  --palette-info-dark: #1976d2;
+  --palette-info-contrastText: var(--palette-common-white);
+
+  --palette-success: #4caf50;
+  --palette-success-light: #81c784;
+  --palette-success-dark: #388e3c;
+  --palette-success-contrastText: rgba(0, 0, 0, 0.87);
+
+  --palette-text-primary: rgba(0, 0, 0, 0.87);
+  --palette-text-secondary: rgba(0, 0, 0, 0.54);
+  --palette-text-disabled: rgba(0, 0, 0, 0.38);
+  --palette-text-hint: rgba(0, 0, 0, 0.38);
+
+  --palette-divider: rgba(0, 0, 0, 0.12);
+
+  --shape-borderRadius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}
